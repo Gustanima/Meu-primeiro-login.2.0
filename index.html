@@ -5,33 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro site com css</title>
+    <title>Login</title>
     <link rel="stylesheet" href="/style.css">
-    <meta name="description" content="Meu primeiro site com css na vida, espero que gostem!">
-    <meta name="author" content="Gustavo da paz silva">
-    <meta name="keywords" content="CSS,site com css, primeiro site com css, css, first site with css, 
-    css, css with html, visual code studio, visual code studio css">
 </head>
 
 <body>
+    <form>
+        <div class="main-login">
+            <div class="left-login">
+                <h1>Faça seu login<br> e entre para nosso time</h1>
+            </div>
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="textfield">
 
-    <div id="content">
+                        <label for="usuario">Usuario</label>
+                        <input required type="text" name="usuario" placeholder="Usuario">
 
-        <h1>Painel de controle</h1>
-        <h2>Gerenciar seu Negócio</h2>
-
-        <h2 id="emailtext">Email</h2>
-        <input id="email" type="email" placeholder="Digite seu email">
-        <h2 id="passwordtext">Senha</h2>
-        <input id="password" type="password" placeholder="Digite sua senha">
-        <br>
-        <input class="inline" type="checkbox" id="lembre">
-
-        <label class="inline" id="lembre1" for="lembre">Lembre-me</label>
-
-        <br>
-        <button>Acessar</button>
-    </div>
+                    </div>
+                    <div class="textfield">
+                        <label for="password">Senha</label>
+                        <input required type="password" name="password" placeholder="Senha">
+                    </div>
+                    <a href="/outro.html">
+                        <button class="btn-login">Login</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 
 </html>
